@@ -1,13 +1,12 @@
 # Movie Discovery Web Application
 
-## Overview of the Project:
+## Overview of the Project
 
 This is a movie discovery web application that allows users to search for movies, view movie details, and save their favorite movies. It consumes data from the TMDB API. The user can also rate the movie they have watched
 
 ## Table of Contents
 
 - [User Interface](#user-interface)
-- [Movie Search](#movie-search)
 - [Movie Details](#movie-details)
 - [API Integration](#api-integration)
 - [Error Handling](#error-handling)
