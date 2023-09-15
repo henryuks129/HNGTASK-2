@@ -1,0 +1,58 @@
+.backdrop{
+    height: 449px;
+    border-radius: 20px;
+}
+
+.movie-title{
+    font-size: 30pt;
+}
+
+.loading-state{
+    background-color: purple;
+    /* height: 100vh; */
+}
+
+.details-menu{
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.details-body{
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.playbutton-body{
+    width: 65px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.35);
+    stroke-width: 2px;
+    stroke: rgba(232, 232, 232, 0.20);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+}
+
+.trailer-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 449px;
+}
+
+.genres-main{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #F0E0EB;
+}
+
+.genres-body{
+    color: #B91C1C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

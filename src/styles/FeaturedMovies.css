@@ -1,0 +1,75 @@
+.card-body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+}
+
+[data-testid="poster-card"]{
+    width: 250px;
+    /* height: 490px; */
+    margin: auto;
+}
+
+.poster-cards{
+    width: 250px;
+    height: 530px;
+}
+
+[data-testid="movie-poster"]{
+    width: 250px;
+    height: 370px;
+}
+
+[data-testid="movie-title"]{
+    font-size: 18px;
+}
+
+.poster-card-body{
+    position: relative;
+}
+
+.icon-body{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* left: 0; */
+    z-index: 1;
+}
+
+.favourite-icon{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: rgba(252, 251, 251, 0.904);
+    stroke-width: 2px;
+    stroke: rgba(232, 232, 232, 0);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(2px);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .card-body{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        /* gap: 12px; */
+    }
+
+    [data-testid="poster-card"]{
+        width: 250px;
+        /* height: 490px; */
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-body{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        /* gap: 12px; */
+    }
+}

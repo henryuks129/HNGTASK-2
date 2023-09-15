@@ -1,0 +1,29 @@
+.hero-body{
+    background: url(../assets/Posterbackground.svg) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+@media screen and (max-width: 575px){
+    .hero-body{
+        background: url(../assets/Posterbackground.svg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-body{
+        background: url(../assets/Posterbackground.svg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .hero-body{
+        background: url(../assets/Posterbackground.svg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}

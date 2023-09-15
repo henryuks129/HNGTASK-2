@@ -1,0 +1,18 @@
+.inner-footer{
+    width: 492px;
+    height: 146px;
+    margin: auto;
+}
+
+.footer-image{
+    width: 240px;
+    height: 28px;
+    margin: auto;
+    gap: 45px;
+}
+
+@media screen and (max-width: 575px) {
+    .footer-text-area{
+        display: inline-block;
+    }
+}

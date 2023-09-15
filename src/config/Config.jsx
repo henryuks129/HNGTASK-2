@@ -1,0 +1,1 @@
+export const API_KEY = import.meta.env.React_App_Api_Key
