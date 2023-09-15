@@ -13,6 +13,12 @@
 
 @media screen and (max-width: 575px) {
     .footer-text-area{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-body{
+        width: 492px;
+        height: 146px;
     }
 }

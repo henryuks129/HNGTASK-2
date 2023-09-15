@@ -4,6 +4,7 @@
     gap: 12px;
 }
 
+
 [data-testid="poster-card"]{
     width: 250px;
     /* height: 490px; */
@@ -50,26 +51,66 @@
     top: 0;
 }
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     .card-body{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: auto;
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr) !important;
+        /* margin: auto; */
         /* gap: 12px; */
-    }
+    /* } */
 
-    [data-testid="poster-card"]{
-        width: 250px;
+    /* [data-testid="poster-card"]{ */
+        /* width: 250px; */
         /* height: 490px; */
-        margin: auto;
-    }
-}
+        /* margin: auto; */
+    /* } */
+/* } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .card-body{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        margin: auto;
-        /* gap: 12px; */
+        display: grid !important;
+        grid-template-columns: repeat(3,1fr) !important; */
+        /* margin: auto; */
+        /* gap: 12px;
     }
-}
+} */
+
+/* @media screen and (max-width: 1440px){
+        .card-body{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 12px;
+        }
+    } */ 
+
+    @media screen and (max-width: 1200px) {
+        .card-body {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          margin: auto;
+          /* gap: 12px; */
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        .card-body {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin: auto;
+        }
+      
+        [data-testid="poster-card"] {
+          width: 250px;
+          /* height: 490px; */
+          margin: auto;
+        }
+      }
+      
+      @media screen and (max-width: 475px) {
+        .card-body {
+          display: grid;
+          grid-template-columns: 1fr;
+          margin: auto;
+          /* gap: 12px; */
+        }
+      }
